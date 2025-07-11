@@ -1,35 +1,38 @@
-# Extrator Python
+# Python Extractor
 
-Projeto criado para demonstrar um extrator de linhas em uma tabela de banco de dados utilizando Python
+Project created to demonstrate a row extractor from a database table using Python.
 
-## Requisitos
+## Requirements
 
-Para usar este programa, você precisará ter o Python 3.x instalado no seu computador. As dependências do projeto estão listadas no arquivo `requirements.txt`.
+To use this program, you will need Python 3.x installed on your computer. The project dependencies are listed in the `requirements.txt` file.
 
-## Instalação
+## Installation
 
-1. Clone este repositório para o seu computador.
-2. Crie um ambiente virtual Python e ative-o:
+1. Clone this repository to your computer.
+2. Create and activate a Python virtual environment:
+
 ```bash
 	python -m venv venv
 	source venv/bin/activate # Linux/macOS
 	venv\Scripts\activate.bat # Windows
 ```
-	
-3. Instale as dependências do projeto:
+
+3. Install the project dependencies:
+
 ```bash
 	pip install -r requirements.txt
 ```
 
-4. Execute o programa:
+4. Run the program:
+
 ```bash
 	python src/extrator.py
 ```
 
-## Contribuindo
+## Contributing
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com correções de bugs, novos recursos ou melhorias de código.
+Contributions are welcome! Feel free to submit pull requests with bug fixes, new features, or code improvements.
 
-## Licença
+## License
 
-Este projeto está licenciado sob a Licença GNU GPLv3. Consulte o arquivo `LICENSE` para obter mais informações.
+This project is licensed under the GNU GPLv3 License. See the `LICENSE` file for more information.
